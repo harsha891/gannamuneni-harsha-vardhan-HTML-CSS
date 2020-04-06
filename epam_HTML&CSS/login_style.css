@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.whole{
+    width:100%;
+    height: 100vh;
+    
+}
+
+.login{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    background-color: #19A9EC ;
+    word-spacing: 3px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+
+
+.mail{
+    width: calc(100% - 40px);
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    
+}
+
+button{
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.signin{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    background-color: #4BBDF2;
+    border:none;
+    color: white;
+}
+
+.forgot{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    border:none;
+}
+
+.register{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    border:none;
+}
+
+::placeholder{
+    letter-spacing: 1px;
+    color:#aaa;
+}
+
+.other{   
+    text-align: center;
+    color:#aaa;
+}
+
+.fb{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    border:none;
+    background-color: #3b5998;
+    color: white;
+}
+
+.gmail{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    border:none;
+    background-color: #dd4b39;
+    color: white;
+}
+
+.epam{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    border:none;
+    background-color: #EAF31E;
+    color: white;
+}
